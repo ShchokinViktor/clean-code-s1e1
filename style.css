@@ -7,7 +7,7 @@ body {
 
 }
 
-.info {
+.header {
 
   width: 500px;
   margin: 0 auto;
@@ -16,13 +16,13 @@ body {
 
 }
 
-.info img {
+.header__img {
 
   width: 100%;
 
 }
 
-.info__more-inf {
+.header__link {
 
   font-family: fantasy, cursive;
 
@@ -65,8 +65,8 @@ body {
 
 }
 
-.task-row-wrapper {
-
+.add__task-wrapper {
+  padding-top: 20px;  
   display: flex;
 
 }
@@ -163,7 +163,7 @@ button {
 
 }
 
-.task-item > input[type='checkbox'] {
+.task-item > .task-checkbox {
 
   margin: 0 10px;
 
@@ -223,5 +223,5 @@ button {
 .edit-tasks label {
 
   display: none;
-  
+
 }
